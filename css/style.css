@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+html, body{
+    background-color: #161616;
+    font-family: 'Roboto Slab', serif;
+}
+
+#container{
+    display: grid;
+    grid-template: 25vh 70vh 5vh / 0.5fr 2fr 2fr;
+    grid-template-areas: 
+    "figure header aside"
+    "main main aside"
+    "footer footer footer";
+}
+
+figure{
+    grid-area: figure;
+    display: flex;
+    justify-self: center;
+}
+
+figure > img{
+    border-radius: 50%;
+    margin: 16px;
+}
+
+header{
+    grid-area: header;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.name{width: 100%;}
+
+.name > h1{
+    font-size: 2.5em;
+    font-family: 'Roboto Slab', sans-serif;
+    color: #FFF;
+}
+
+.socials ul li{
+    font-size: 1.6em;
+    float: left;
+    padding: 10px 10px 0 5px;
+}
+
+.fa-linkedin{color: #0e76a8; transition-duration: 0.5s;} .fa-linkedin:hover{color: gray; transition-duration: 0.5s;}
+.fa-instagram{color: #E1306C; transition-duration: 0.5s;} .fa-instagram:hover{color: gray; transition-duration: 0.5s;}
+.fa-playstation{color:#003791; transition-duration: 0.5s;} .fa-playstation:hover{color: gray; transition-duration: 0.5s;}
+.fa-github{color: #FFF; transition-duration: 0.5s;} .fa-github:hover{color: gray; transition-duration: 0.5s;}
+.fa-steam{color: #2a475e; transition-duration: 0.5s;} .fa-steam:hover{color: gray; transition-duration: 0.5s;}
+
+main{
+    padding: 50px;
+    grid-area: main;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1d2226;
+}
+
+.structure{width: 100%;}
+
+h2{
+    font-size: 2em;
+    border-bottom: 2px solid rgba(239,11,92,0.5);
+    margin-bottom: 10px;
+    color: #ef0b5c;
+}
+
+h3{
+    font-size: 1.4em;
+    margin-bottom: 5px;
+    color: #FFF;
+}
+
+h6{
+    font-style: italic;
+    margin-bottom: 5px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+p{
+    font-size: large;
+    margin: 10px 0 0 0;
+    text-align: justify;
+    color: #FFFAFA;
+}
+
+h4{text-align: center;}
+
+aside{
+    grid-area: aside;
+    background-color: rgba(239,11,92,0.5);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.str > img{
+    width: 250px;
+    height: 250px;
+    background-color: #000;
+    object-fit: cover;
+}
+
+.aside-title{
+    width: 100%;
+    height: 50px;
+}
+
+.aside-title > h4{
+    font-size: 2.5em;
+    color: #FFF;
+}
+
+footer{
+    grid-area: footer;
+    background-color: rgba(239,11,92,0.5);
+    padding-top: 15px;
+    color: #FFF;
+}
