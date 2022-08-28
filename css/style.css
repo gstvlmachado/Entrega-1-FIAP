@@ -50,9 +50,9 @@ header{
 
 .fa-linkedin{color: #0e76a8; transition-duration: 0.5s;} .fa-linkedin:hover{color: gray; transition-duration: 0.5s;}
 .fa-instagram{color: #E1306C; transition-duration: 0.5s;} .fa-instagram:hover{color: gray; transition-duration: 0.5s;}
-.fa-playstation{color:#003791; transition-duration: 0.5s;} .fa-playstation:hover{color: gray; transition-duration: 0.5s;}
+.fa-playstation{color:#0172D0; transition-duration: 0.5s;} .fa-playstation:hover{color: gray; transition-duration: 0.5s;}
 .fa-github{color: #FFF; transition-duration: 0.5s;} .fa-github:hover{color: gray; transition-duration: 0.5s;}
-.fa-steam{color: #2a475e; transition-duration: 0.5s;} .fa-steam:hover{color: gray; transition-duration: 0.5s;}
+.fa-steam{color: #FFF; transition-duration: 0.5s;} .fa-steam:hover{color: gray; transition-duration: 0.5s;}
 
 main{
     padding: 50px;
@@ -86,7 +86,7 @@ h6{
 }
 
 p{
-    font-size: large;
+    font-size: 1em;
     margin: 10px 0 0 0;
     text-align: justify;
     color: #FFFAFA;
